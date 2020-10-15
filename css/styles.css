@@ -223,9 +223,6 @@ footer {
   color: hsl(0, 0%, 100%);
 }
 
-.info li:hover {
-  color: hsl(176, 68%, 64%);
-}
 
 .social {
   padding: 0;
@@ -248,8 +245,5 @@ footer {
   border-radius: 50%;
 }
 
-.social li:hover {
-  color: hsl(176, 68%, 64%);
-  border: 1px solid hsl(176, 68%, 64%);
-}
+
 /*Para el responsive*/
