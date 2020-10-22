@@ -249,8 +249,8 @@ margin:0;
   border:1px solid #ffffff;
 }
 
-/*Para el responsive
-Por el contenido de la pagina se propone usar Flexbox*/ 
+/*Para el responsive de la tablet, celulares y por
+el contenido de la pagina se propone usar Flexbox*/ 
 
 /*Responsive sección uno*/
 /*Defino las propiedades para el tamaño maximo-Variable de la pagina*/
@@ -364,6 +364,38 @@ Por el contenido de la pagina se propone usar Flexbox*/
 }
 
 /*Responsive sección tres*/
+.section3{
+  padding:30px 30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.box{
+  width:80%;
+  border-radius:10px;
+  padding:10px 10px;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  z-index:2;
+}
+
+.box h1{
+  font-size:.8em;
+  width:100%;
+}
+
+.bottombutton{
+  padding:15px 30px;
+  font-weight:600;
+  box-shadow:2px 2px 5px hsl(210, 8%, 75%);
+  cursor: pointer;
+  margin-top:15px;
+  margin-bottom:20px;
+}
 
 
 /*Responsive pie de pagina*/
